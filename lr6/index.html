@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форум программистов</title>
+</head>
+
+<body>
+  <h1>Форум программистов</h1>
+
+  <form>
+    <input type="text" id="search" name="search" required>
+    <input type="submit" value="Поиск">
+    <hr>
+    <label for="category">Категория:</label>
+    <select id="category" name="category">
+      <option value="all">Все</option>
+      <option value="java">Java</option>
+      <option value="python">Python</option>
+      <option value="javascript">JavaScript</option>
+    </select>
+    <br>
+
+    <label for="sort">Сортировка:</label>
+    <select id="sort" name="sort">
+      <option value="latest">По новизне</option>
+      <option value="popularity">По популярности</option>
+    </select>
+    <br>
+
+    <label for="tags">Теги:</label>
+    <input type="text" id="tags" name="tags">
+    <br>
+
+    <label for="author">Автор:</label>
+    <input type="text" id="author" name="author">
+    <br>
+
+    <label for="status">Статус:</label>
+    <select id="status" name="status">
+      <option value="all">Все</option>
+      <option value="open">Открытые</option>
+      <option value="closed">Закрытые</option>
+    </select>
+
+  </form>
+  <style>
+    body{
+     margin:0 auto;
+    }
+  </style>
+</body>
+
+</html>
