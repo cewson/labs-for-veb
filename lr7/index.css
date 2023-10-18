@@ -1,0 +1,52 @@
+ #test {
+    font-size: 40px;
+    background-color: #ce2200;
+  } 
+  
+#test > b + i {
+    text-decoration: underline;
+  }
+div {
+  background-color: aqua;
+}
+.divback
+ {
+  background-color: blueviolet;
+}
+.divback2{
+  background-color: #000000;
+}
+  
+p[title*="привет"] {
+    color:darkred;
+  }
+
+a {
+    color: #000000;  
+    text-decoration: none; 
+}
+a:visited {
+    color: #b97df1; 
+} 
+a:hover {
+    color: #ce2200;   
+    text-decoration: underline;
+}
+
+table {
+	width:100%;
+	background-color:rgb(211, 211, 211);
+	color:rgb(0, 0, 0);
+}
+tr:nth-child(2n) {
+	background-color:rgb(94, 150, 218);
+}
+
+.table-text {
+    font-size:x-large;
+}
+
+th { 
+    background: rgb(73, 197, 239); /* Цвет фона ячейки */
+    text-align: left; /* Выравнивание по левому краю */
+   }
