@@ -1,0 +1,454 @@
+.body {
+  background: url("./img/bg.jpg") no-repeat center top/cover;
+}
+ul,
+li {
+  display: block;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--Orange, #ffb800);
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 49px;
+}
+
+.nav {
+  display: flex;
+}
+.menu {
+  display: flex;
+  margin-right: 378px;
+  margin-top: 40px;
+}
+.m1 {
+  display: flex;
+  width: 203px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.m2 {
+  display: inline-flex;
+  padding: 12px 0px 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav2 {
+  display: inline-flex;
+  padding: 12px 0px 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 28px;
+  margin-right: 8px;
+}
+
+.text1 {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0px 4px 0px #000;
+  font-family: Quicksand;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-left: 363px;
+  margin-right: 362px;
+  margin-top: 70px;
+}
+.colortext {
+  color: #ffb800;
+}
+
+.text2 {
+  text-decoration: none;
+  color: #ffb800;
+  font-family: Quicksand;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.form {
+  width: 686px;
+  height: 442px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(57, 57, 57, 0.5);
+  backdrop-filter: blur(12.5px);
+  margin-top: 141px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dc button {
+  text-decoration: none;
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 26px;
+  width: 172px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: none;
+  outline: none;
+}
+.dc button:focus {
+  background-color: #ffb800;
+  color: #fff;
+}
+
+#b1 {
+  margin-left: 163px;
+  margin-right: 16px;
+}
+
+.what {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 43px;
+  margin-left: 228px;
+}
+.what button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+#text2 {
+  margin-top: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.sel {
+  margin-top: 18px;
+  margin-bottom: 16px;
+  margin-left: 221px;
+  display: flex;
+  width: 261px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.select {
+  margin-left: 8px;
+  margin-top: 2px;
+  outline: none;
+  appearance: none; /*стрелочка справа */
+  border: none;
+  width: 100%;
+  background: none;
+  text-decoration: none;
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background-image: url(./img/bot.svg);
+  background-size: 24px;
+  background-position: 189px;
+  background-repeat: no-repeat;
+}
+
+.select option {
+  background: rgba(33, 31, 31, 0.5);
+}
+
+.imgsel1 {
+  margin-top: 11px;
+  margin-left: 8px;
+}
+
+.data {
+  display: flex;
+}
+.address {
+  margin-left: 40px;
+  display: block;
+  width: 197px;
+  height: 46px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.add {
+  margin-left: 16px;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  display: block;
+  width: 150px;
+  height: 15px;
+  background: transparent;
+  fill: none;
+  border: none;
+}
+
+#text3 {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.drop {
+  margin-left: 7px;
+  margin-right: 7px;
+  flex-shrink: 0;
+  display: block;
+  width: 197px;
+  height: 46px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.dr {
+  display: block;
+  position: relative;
+  margin-left: 16px;
+  margin-top: 15px;
+  background: transparent;
+  fill: none;
+  border: none;
+}
+
+.pick {
+  display: flex;
+  width: 197px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-right: 40px;
+}
+
+.date-input {
+  margin-left: 16px;
+  margin-top: 15px;
+  margin-right: 6px;
+  position: relative;
+  width: 173px;
+  height: 15px;
+  border: none;
+  background: none;
+  outline: none;
+  fill: none;
+}
+.date-input::before {
+  margin-top: 1px;
+  position: absolute;
+  content: "DD/MM/YYYY";
+  right: 18px;
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+  margin-top: 1px;
+  background-image: url(./img/bot.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px;
+}
+
+.date-input::before::-webkit-datetime-edit-text,
+.date-input::-webkit-datetime-edit-month-field,
+.date-input::-webkit-datetime-edit-day-field,
+.date-input::-webkit-datetime-edit-year-field {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.size {
+  display: flex;
+  margin-left: 303px;
+  margin-top: 16px;
+  flex-shrink: 0;
+  width: 81px;
+  height: 46px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.imgsize {
+  margin-left: 16px;
+  margin-top: 17px;
+  margin-right: 8px;
+}
+
+.sizeselect {
+  outline: none;
+  appearance: none; /*стрелочка справа */
+  border: none;
+  width: 100%;
+  background: none;
+  text-decoration: none;
+  position: relative;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.45);
+  font-family: Quicksand;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 32px;
+  text-overflow: ellipsis;
+}
+
+.sizeselect option {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dc button {
+  transform: translateY(calc(var(--y, 0) * 1%)) scale(var(--scale));
+  transition: transform 0.1s;
+  position: relative;
+}
+
+.dc button:hover {
+  --y: -10;
+  --scale: 1.1;
+  --border-scale: 1;
+}
+
+.dc button:active {
+  --y: 5%;
+  --scale: 0.9;
+  --border-scale: 0.9, 0.8;
+}
+
+.search button {
+  margin-top: 16px;
+  margin-left: 243px;
+  border: none;
+  position: relative;
+  background: transparent;
+  color: var(--White, #fff);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 3px solid #ffb800;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 8px;
+  width: 197px;
+  height: 46px;
+}
+
+.search button:hover {
+  color: #fff;
+}
+.search span {
+  transition: all 0.7s;
+  z-index: -1;
+}
+
+.search button .first {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background: #ffb800;
+}
+
+.search button:hover .first {
+  top: 0;
+  right: 0;
+}
+.search button .second {
+  content: "";
+  position: absolute;
+  left: 25%;
+  top: -100%;
+  height: 100%;
+  width: 25%;
+  background: #ffb800;
+}
+
+.search button:hover .second {
+  top: 0;
+  left: 50%;
+}
+
+.search button .third {
+  content: "";
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  top: 100%;
+  width: 25%;
+  background: #ffb800;
+}
+
+.search button:hover .third {
+  top: 0;
+  left: 25%;
+}
+
+.search button .fourth {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 25%;
+  background: #ffb800;
+}
+
+.search button:hover .fourth {
+  top: 0;
+  left: 0;
+}
